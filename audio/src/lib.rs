@@ -23,6 +23,8 @@ mod libvorbis_decoder;
 
 mod range_set;
 
+pub use range_set::Range;
+
 pub use decrypt::AudioDecrypt;
 pub use fetch::{AudioFile, AudioFileOpen, StreamLoaderController};
 pub use fetch::{
